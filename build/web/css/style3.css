@@ -1,0 +1,125 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 15, 2018, 12:23:53 AM
+    Author     : bekal
+*/
+
+section{
+    margin-top: 30px;
+}
+th:hover{
+    cursor: pointer;
+}
+
+.tab-section  a:first-child {
+
+    color :#0000ff; 
+
+
+    font-size: 25px;
+}
+.val{
+    color : #00ff00; 
+
+
+    font-size: 25px;
+}
+.del {
+
+    color :#fc6c6c;
+
+
+    font-size: 25px;
+}
+.print{
+        color :#84fffa;
+
+    font-size: 25px;
+}
+
+.tab-section td:last-child{
+    width:10%;
+    vertical-align: top;
+}
+.menu-list li:hover{
+    text-decoration: none;
+    background-color: #fff;
+    color:rgb(0,123,255);
+
+}
+.menu-list li{
+    background-color: rgb(0,123,255);
+    text-decoration: none;
+    color:#fff;
+
+}
+
+.menu-list li {
+    margin-right:-4px;
+    list-style: none;
+    width :100px;
+    display:inline-block;
+    font-size: 15px;
+    text-align: center;
+}
+
+.nav-menu{
+    margin-top:0;
+}
+.menu-list  i{
+    line-height: 1;
+    font-size: 30px;
+    text-align: center;
+}
+.validate{
+    background-color: #c0ceff;
+}
+
+table td ,table th{
+    vertical-align: middle;
+}
+footer {
+    color:transparent;
+    text-align: center;
+    vertical-align: middle;
+    background-color:transparent; 
+    height:80px; 
+        left: 0;
+    bottom: 0;
+    width: 100%;
+    
+    text-align: center;
+   
+}
+selected:after {
+    content:"";
+    display:block;
+    height:2px;
+    position:fixed;
+    background-color: red;
+    height: 100%;
+    color :white;
+}
+nav-link {
+    color:#fff;
+}
+.ion-android-download{
+    font-size: 30px;
+    color:white;
+}
+.selected{
+    border-bottom: 2px solid #fff;
+}
+.budget-tab tr td,.budget-tab tr th{
+    width:33%;
+}
+.status{
+    color :red;
+}
+.table-comm tr th:last-child,.table-comm tr td:last-child{
+    width: 150px;
+}
